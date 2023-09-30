@@ -1,0 +1,160 @@
+.navbar{
+  
+  flex: 1;
+  height: 0px;
+  position:absolute;
+  background: rgb(30, 30, 39);
+  outline-color:white ;
+  width: 99%;
+  border: 5px;
+  vertical-align: top;
+  direction: ltr;
+  z-index: 1000;
+  
+
+}
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.navbarend{
+  padding-right: 20px;
+  right: 0;
+  flex: 1;
+  height: 0px;
+  position:absolute;
+  background: rgb(30, 30, 39);
+  outline-color:rgb(30, 30, 39) ;
+  
+  border: 5px;
+  vertical-align: top;
+  direction: ltr;
+  z-index: 1000;
+  
+
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+  background-color: rgb(30, 30, 39);
+}
+
+h1{
+ text-align: center;
+ color: white;
+
+
+}
+
+
+
+.navigationdefault{
+  right: 0;
+  font-size: 23px;
+  color: white;
+  background-color: rgb(30, 30, 39);
+  border-radius:5px;
+  cursor: pointer;
+ 
+  display: inline-block;
+  padding: 9px 10px 8px;
+  border-radius: 6px;
+  font-family: math;
+}
+.navigationdefaultend{
+  margin-left: auto;
+  
+  margin-right: 1000px; 
+  font-size: 23px;
+  color: white;
+  background-color: rgb(30, 30, 39);
+  border-radius:5px;
+  cursor: pointer;
+  
+  display: inline-block;
+  padding: 9px 10px 8px;
+  border-radius: 6px;
+  font-family: math;
+}
+.navigationselected{
+
+  right: 0;
+  font-size: 23px;
+  color: rgb(48, 49, 69);
+  background-color: white; 
+  cursor: pointer;
+  margin: auto;
+  display: inline-block;
+  padding: 9px 10px 8px;
+  border-radius: 6px;
+  font-family: math;
+}
+
+
+.navigationdate{
+  text-align: right;
+  font-size: 23px;
+  color: white;
+ background-color: rgb(30, 30, 39);
+  
+  margin: auto;
+  display: inline;
+  padding: 10px;
+  font-family: math;
+}
+.navigationdefault.navigation-end {
+  margin-left: auto;
+}
+
+
+
+.pb{
+
+  
+  color: white;
+  background: black;
+  width: 20%;
+  
+
+  direction: ltr;
+  vertical-align: bottom;
+  padding: 10px;
+  position: relative;
+  z-index: 9999; 
+}
+.navbox {
+  flex: 1;
+  padding: 10px;
+  border-bottom: 1px solid white;
+  background-color: rgb(30, 30, 39); 
+  height: 60px;
+    
+  position: absolute; 
+  top: 0; 
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 200;
+}
+
+
+
+.main{
+
+
+   color:white;
+   background-color: rgb(30, 30, 39);
+   position: absolute;
+   width: 100%;
+   text-align: center;
+   top:60px;
+   font-family: math;
+   font-size: 18px;
+}
